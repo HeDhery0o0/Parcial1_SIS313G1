@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #7aa7c7, #dbe9f4);
+}
+
+
+.window {
+    width: 900px;
+    margin: 30px auto;
+    background: #f2f2f2;
+    border: 1px solid #777;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+.top-bar {
+    background: linear-gradient(#3c7fb1, #1f4e6e);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+}
+
+.sub {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 12px;
+}
+
+
+.form {
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: 75%;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+input, textarea {
+    width: 95%;
+    padding: 5px;
+    background: #f5f5dc;
+    border: 1px solid #aaa;
+    font-size: 13px;
+}
+
+textarea {
+    height: 60px;
+    resize: none;
+}
+
+
+.check {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.check label {
+    margin-left: 5px;
+    margin-top: 0;
+}
+
+
+.table-box {
+    padding: 10px 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th {
+    background: #2f6fa3;
+    color: white;
+    font-size: 13px;
+}
+
+td, th {
+    border: 1px solid #ccc;
+    padding: 6px;
+    text-align: left;
+}
+
+tbody tr:hover {
+    background: #e6f0fa;
+}
+
+
+.buttons {
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    padding: 7px 15px;
+    margin: 5px;
+    background: linear-gradient(#dfefff, #9cc2e5);
+    border: 1px solid #5a8db3;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+button:hover {
+    background: linear-gradient(#ffffff, #a8d0f0);
+}
+
+.disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
